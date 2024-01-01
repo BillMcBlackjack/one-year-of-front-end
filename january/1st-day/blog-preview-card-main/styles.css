@@ -1,29 +1,83 @@
 
 body {
-  font-family: 'Figtree', sans-serif;  
+  font-family: 'Figtree', sans-serif;
   display: flex;
   flex-direction: column;
   background: hsl(47, 88%, 63%);
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
+  margin: 0px;
 }
 
 #card-container {
   background-color: hsl(0, 0%, 100%);
   display: flex;
-  width: 400px;
-  height: 500px;
+  width: 340px;
+  height: 490px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   border: 1px solid black;
   border-radius: 20px;
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1), 8px 8px 0px 0px rgba(0, 0, 0, 1);
-  padding: 24px;
+  padding: 16px 20px 10px 20px;
+  gap: 16px;
 }
 
+#design-image {
+  display: flex;
+  align-self: center;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.learning-text {
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  background: hsl(47, 88%, 63%);
+  width: 100px;
+  height: 32px;
+  border-radius: 6px;
+}
+
+.heading-text {
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 0px;
+  margin: 4px 0px 4px 0px;
+}
+
+#paragraph {
+  color: hsl(0, 0%, 50%);
+}
+
+.icon-container {
+  gap: 16px;
+}
+
+#avatar-icon {
+  align-self: center;
+  height: 30px;
+  width: 30px;
+}
+
+#name {
+  font-weight: 600;
+}
 
 
 #footer {
