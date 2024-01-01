@@ -23,6 +23,16 @@
       <p class="subtext">Published 21 Dec 2023</p>
       <h1 class="heading-text" onmouseover="changeColor(this)"
       onmouseout="restoreColor(this)">HTML & CSS foundations</h1>
+
+      <script>
+        function changeColor(element) {
+          element.style.color = "hsl(47, 88%, 63%)";
+        }
+
+        function restoreColor(element) {
+          element.style.color = "";
+        }
+      </script>
       <p class="subtext" id="paragraph">These languages are the backbone of every website
         , defining structure, content, and presentation.
       </p>
