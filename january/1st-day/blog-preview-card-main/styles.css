@@ -3,17 +3,18 @@ body {
   font-family: 'Figtree', sans-serif;
   display: flex;
   flex-direction: column;
-  background: hsl(47, 88%, 63%);
+  background: #f4d04e;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0px;
 }
 
 #card-container {
   background-color: hsl(0, 0%, 100%);
   display: flex;
-  width: 340px;
+  width: 90%;
+  max-width: 340px;
   height: 490px;
   flex-direction: column;
   justify-content: center;
@@ -23,6 +24,7 @@ body {
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1), 8px 8px 0px 0px rgba(0, 0, 0, 1);
   padding: 16px 20px 10px 20px;
   gap: 16px;
+  margin: auto 0;
 }
 
 #design-image {
@@ -83,4 +85,6 @@ body {
 #footer {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
+  padding: 16px;
 }
