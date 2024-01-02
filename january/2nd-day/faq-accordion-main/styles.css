@@ -9,6 +9,19 @@ p {
   font-size: 16px;
 }
 
+.header-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+#header-text {
+  font-size: 48px;
+  font-weight: 1000;
+  color:hsl(292, 42%, 14%);
+  margin: 16px;
+}
+
 .question {
   cursor: pointer;
   display: flex;
@@ -25,18 +38,17 @@ p {
   display: none;
 }
 
-#header-text {
-  font-weight: 700;
-  color:hsl(292, 42%, 14%)
-}
-
-#background-image {
+.background-img {
   width: 100%;
   position: fixed;
   object-fit: cover;
   z-index: -1;
   top: 0;
   left: 0;
+}
+
+#background-img-mobile {
+  display: none;
 }
 
 
@@ -54,12 +66,6 @@ p {
   height: auto;
   padding: 28px;
   z-index: 1;
-}
-
-.header-container {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
 }
 
 .section {
