@@ -9,6 +9,9 @@ p {
 }
 
 .question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   font-weight: bold;
   color: hsl(292, 42%, 14%);
 }
@@ -28,4 +31,14 @@ p {
   justify-content: center;
   align-items: flex-end;
   padding: 16px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
 }
