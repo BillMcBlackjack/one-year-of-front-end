@@ -76,7 +76,7 @@ body {
   height: auto;
 }
 
-#footer {
+footer {
   align-self: center;
   position: fixed;
   bottom: 0;
