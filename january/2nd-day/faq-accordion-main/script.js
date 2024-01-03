@@ -21,10 +21,12 @@ const questionText = document.querySelectorAll('.question');
 
 questionText.forEach(question => {
   question. addEventListener('click', function() {
+    const plusBtn = this.querySelector('plus-button');
+    const minusBtn = this.querySelector('minus-button');
+
     const section = this.closest('.section');
     const answer = section.querySelector('.answer');
 
     section.classList.toggle('show-answer');
   });
 });
-
