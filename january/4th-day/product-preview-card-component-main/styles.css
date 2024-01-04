@@ -1,6 +1,7 @@
 body {
   font-family: 'Fraunces', serif;
   font-family: 'Montserrat', sans-serif;
+  background-color: hsl(30, 38%, 92%);
 }
 
 footer {
@@ -11,5 +12,5 @@ footer {
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
 }
