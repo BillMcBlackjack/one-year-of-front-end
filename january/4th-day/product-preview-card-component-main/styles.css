@@ -1,7 +1,14 @@
+body {
+  font-family: 'Overpass', sans-serif;
+}
 
 footer {
   align-self: center;
   position: fixed;
   bottom: 0;
   padding: 16px;
+}
+
+p {
+  font-size: 15px;
 }
