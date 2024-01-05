@@ -48,7 +48,8 @@ body {
 }
 
 #hero-text {
-  font-size: 28px;
+  font-size: 34px;
+  color: hsl(212, 21%, 14%);
 }
 
 #currency {
