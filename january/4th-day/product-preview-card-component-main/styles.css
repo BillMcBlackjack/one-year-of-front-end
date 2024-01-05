@@ -15,7 +15,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
  main {
@@ -44,17 +43,36 @@ body {
   gap: 20px;
 }
 
-.currency {
-  display:flex;
-  flex-direction: row;
+#pre-hero-text {
+  height: auto;
 }
 
+#hero-text {
+  font-size: 28px;
+}
 
+#currency {
+  display:flex;
+  width: 100%;
+  height: 50%;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+#price-now {
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+}
+
+#price-cut {
+  padding-top: 8px;
+}
 
 #add-to-cart-btn {
-  background-color: hsl(158, 36%, 37%);
+  background-color: hsl(159, 44%, 23%);
   width: 100%;
-  height: 80%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,16 +89,10 @@ body {
   height: 15px;
 }
 
-footer {
-  align-self: center;
-  position: fixed;
-  bottom: 0;
-  padding: 16px;
-}
-
 p {
   font-size: 14px;
 }
+
 
 .grey-text {
   color: hsl(228, 12%, 48%);
