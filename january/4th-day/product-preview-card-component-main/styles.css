@@ -25,6 +25,8 @@ body {
   display: flex;
   border-radius: 10px;
   gap: 28px;
+  box-shadow: 4px 4px 10px 0px hsl(240, 1%, 67%);
+
 }
 
 #perfume {
