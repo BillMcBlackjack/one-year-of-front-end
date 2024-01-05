@@ -12,7 +12,8 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-  <link rel="stylesheet" href="styles.css"> 
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
 <main id="hero" class="main-section">
@@ -31,8 +32,10 @@
         <p id="price-cut" class="grey-text"><del>$169.99</del></p>
       </section>
 
-      <button id="add-to-cart-btn"> <img class="cart-img" src="images/icon-cart.svg" alt="">Add to Cart</button>
-
+      <div class="cart-section">
+        <img class="cart-img" src="images/icon-cart.svg" alt="">
+        <p id="cart-btn">Add to Cart</p>
+      </div>
   </section>
 </main>
 </body>
