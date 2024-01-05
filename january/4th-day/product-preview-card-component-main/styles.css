@@ -8,6 +8,7 @@
 }
 
 body {
+  cursor:default;
   width: 100%;
   background-color: hsl(30, 38%, 92%);
   font-family: 'Fraunces', serif;
@@ -72,8 +73,11 @@ body {
   padding-top: 8px;
 }
 
-#add-to-cart-btn {
-  background-color: hsl(159, 44%, 23%);
+.cart-section {
+  cursor: pointer;
+  background-color: hsl(158, 36%, 37%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
   width: 100%;
   height: 50%;
   display: flex;
@@ -96,6 +100,10 @@ p {
   font-size: 14px;
 }
 
+#cart-btn {
+  display: flex;
+  align-items: center;
+}
 
 .grey-text {
   color: hsl(228, 12%, 48%);
