@@ -17,9 +17,12 @@
     align-items: center;
   }
 
+  /* RATING STATE */
+
   main {
     max-width: 400px;
     max-height: auto;
+    min-height: 417px;
     background-color: hsl(213, 19%, 18%);
 
     display: flex;
@@ -85,8 +88,6 @@
     cursor: pointer;
   }
 
-
-
   p {
     font-size: 15px;
   }
@@ -95,3 +96,51 @@
     color: hsl(216, 12%, 54%);
   }
 
+  /* THANK YOU STATE */
+
+#thank-you-state {
+  max-width: 400px;
+  max-height: auto;
+  min-height: 417px;
+  background-color: hsl(213, 19%, 18%);
+
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 20px;
+  border-radius: 25px;
+}
+
+#rate-result {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.selection-script {
+  display: flex;
+  padding: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 6px;
+  background-color: hsl(216, 12%, 23%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+}
+
+#thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.thanks-text {
+ color: white; 
+ font-size: 28px;
+}
+.thanks-sub-text {
+  color: hsl(216, 12%, 54%);
+  text-align: center;
+}
