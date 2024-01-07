@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: default;
   }
 
   body {
@@ -28,7 +29,27 @@
     border-radius: 25px;
   }
 
-  
+  #star-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: hsl(216, 12%, 23%);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  #text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 1rem;
+  }
+  #hero-text {
+    color: white;
+    font-size: 28px;
+  }
 
   #rating-section {
 
@@ -49,17 +70,19 @@
     padding-top: 4px;
     border-radius: 50%;
     margin-bottom: 1rem;
+    cursor: pointer;
   }
 
   #submit-btn {
-    background-color: white;
-    color: hsl(25, 97%, 53%);
+    background-color: hsl(25, 97%, 53%);
+    color: white;
     font-size: 16px;
     font-weight: 600;
     border: none;
     border-radius: 20px;
     height: 40px;
-    padding-top: 6px;
+    padding-top: 4px;
+    cursor: pointer;
   }
 
 
